@@ -26,6 +26,14 @@
         "jestConfig": "packages/monads/jest.config.js",
         "passWithNoTests": true
       }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "npm publish --tag=latest --access public",
+        "cwd": "dist/packages/monads"
+      }
     }
   },
   "tags": []
