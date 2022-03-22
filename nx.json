@@ -1,6 +1,6 @@
 {
   "extends": "@nrwl/workspace/presets/core.json",
-  "npmScope": "pure-ts",
+  "npmScope": "purify-ts",
   "affected": {
     "defaultBase": "main"
   },
